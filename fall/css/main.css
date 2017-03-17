@@ -1,0 +1,161 @@
+/*******************
+GENERAL
+********************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+section.hover-reveal {
+  padding: 0 0 3% 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  font-size: 2em;
+  margin: 0 0 .5em 0;
+  cursor: pointer;
+}
+
+h4 {
+  font-size: 1.3em;
+  margin: 0 0 .5em 0;
+}
+
+/*******************
+HEADER
+********************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1, .secondary-logo {
+  font-family: 'Play', sans-serif; /* fallback font is sans-serif */
+  margin: 15px 0;
+  font-size: 2em;
+  font-weight: normal;
+  line-height: 0.8em; /* adjusts spacing between lines */
+}
+
+h2 {
+  font-size: 1em;
+  margin: -5px 0 0; /* first number sets the top, 2nd sets left/right, 3rd sets bottom */
+  font-weight: normal;
+}
+
+
+/*******************
+SECONDARY LOGO NEAR HEADER
+*******************/
+
+.secondary-logo {
+  float: right;
+  text-align: center;
+  padding: 20px 20px 0 0;
+  margin: 0 0 30px 0;
+}
+
+
+/*******************
+FOOTER
+********************/
+
+footer {
+  font-size: 1em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 2px;
+}
+
+/*******************
+IMAGES ON PAGE
+********************/
+
+.profile-photo {
+  clear: both;
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+.center-image {
+  clear: both;
+  display: block;
+}
+
+/*******************
+COLORS
+********************/
+
+/* site body */
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+/* purple header */
+header {
+  background: #8446ac;
+  border-color: #a391b1;
+}
+
+/* nav background on mobile devices */
+nav {
+  background: #a391b1;
+}
+
+h1, h2 {
+  color: #fff;
+}
+
+h2 {
+  color: #fff;
+}
+
+h3 {
+  color: 575047;
+}
+
+.section-title:hover {
+  background-color: #E5E5E5;
+}
+
+a {
+  color: #8446ac;
+}
+
+
+
+
+
+

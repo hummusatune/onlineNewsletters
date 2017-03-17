@@ -1,0 +1,78 @@
+@media screen and (min-width: 480px) { /* if screen is larger than 480px, then this */
+  
+/*******************
+TWO-COLUMN LAYOUT
+********************/
+  #primary {
+    width: 50%;
+    float: left;
+  }
+  
+  #secondary {
+    width: 40%;
+    float: right;
+  }
+
+/**********************************
+THREE-COLUMN PORTFOLIO LAYOUT
+  math
+  
+  3 * 5 = 15
+  100% - 15 = 85%
+  85 / 3 = 28.33333%
+*************************************/
+  
+  #gallery li {
+    width: 28.33333%
+  }
+  
+  #gallery li:nth-child(3n + 1) {
+    clear: left;
+  }
+
+  
+/***********************************
+PAGE: ABOUT
+*************************************/
+  
+  .profile-photo {
+    float: left;
+    margin: 0 5% 80px 0;
+  }
+
+@media screen and (min-width: 660px) {
+  
+/***********************************
+HEADER
+************************************/
+  .secondary.logo {
+    background: none;
+    float: center;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: center;
+    width: 45%;
+    margin-bottom: 60px;
+  }
+  
+  #logo {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 45%;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  h2 {
+    font-size: 0.825em;
+    margin-bottom: 20px;
+  }
+  
+  header {
+    border-bottom: 5px solid #a391b1;
+    margin-bottom: 60px;
+  }
+}
